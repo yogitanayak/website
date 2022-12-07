@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-compitible" content="ie=edge">
+    <meta name="Description" content="enter your description here"/>
+    <title>foodies</title>
+    <!--bootstrap cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <!--own css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivestyle.css">
+    </head>
+        
+    <body>
+        <!--header design-->
+        <header>
+            <nav class="navbar navbar-expand-lg  navigation-wrap">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="C:\Users\HP\OneDrive\Desktop\resfoo\logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-stream navbar-toggler-icon"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link "  href="#about">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link "  href="#explore-food">EXPLORE FOODS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link "  href="#testimonial">REVIEWS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="#faq">FAQ</a>
+                            </li>
+                            <li><button type="button" class="main-btn" data-bs-toggle="modal" data-bs-target="#myModal">LOGIN</button></li>
+                            <li><button class="main-btn">1200 345 123</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                       <div class="modal-header">
+                       
+                                   <h5 class="modal-title">LOGIN</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                               </div>
+                               <div class="mt-3"><img src="" alt=""></div>
+                               <div class="py-2 mx-5">
+                                   <input type="text" class="form-control border-info" placeholder="enter your user name">
+                               </div>
+                               
+                               <div class="py-2 mx-5">
+                                   <input type="password" class="form-control border-info" name="enter full name" id="" placeholder="enter password">
+                               </div>
+                               <div class="py-2 mx-5 text-white">
+                                   <input type="button" class="form-control btn-info text-white" value="LOGIN"></div>
+                               
+                               <div class="py-2 mx-5">
+                                  <input type="button" class="form-control btn-danger text-white" value="REGISTRATION" data-bs-toggle="modal" data-bs-target="#myModal2"></div>
+                               </div></div>
+                       </div>
+                       </div>
+                   </div>
+               </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="modal" id="myModal2">
+                   <div class="modal-dialog">
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <h5 class="modal-title">registration</h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                               
+                                   </div>
+                                   <div class="mt-3"><img src="" alt=""></div>
+                                   <div class="py-3 mx-5">
+                                       <input type="text" class="form-control border-info" name="enter full name" id="" placeholder="enter your name">
+                                   </div>
+                                   <div class="py-3 mx-5">
+                                       <input type="email" class="form-control border-info" name="enter full name" id="" placeholder="enter your email address">
+                                   </div>
+                                   <div class="py-3 mx-5">
+                                       <input type="number" class="form-control border-info" name="enter full name" id="" placeholder="enter your mobile number">
+                                   </div>
+                                   <div class="py-3 mx-5">
+                                       <input type="password" class="form-control border-info" name="enter full name" id="" placeholder="enter password">
+                                   </div>
+                                   <div class="py-3 mx-5 text-white">
+                                       <input type="button" class="form-control btn-info text-white" value="REGISTRATION"></div>
+                                   
+                                   <div class="py-3 mx-5">
+                                      <input type="button" class="form-control btn-danger text-white" value="login" data-bs-toggle="modal" data-bs-target="#myModal"></div></a>
+                                   </div>
+                           </div>
+                           </div>
+                       </div>
+                   </div>
+
+
+<!--section-1 top-banner-->
+    <section id="home">
+        <video autoplay loop muted plays-inline width="100%">
+            <source src="C:\Users\HP\OneDrive\Desktop\resfoo\video.mp4" type="video/mp4">
+        </video>
+        
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                        <h1>Good food choices are good investments.</h1>
+                        <p>lorem ipsum dolor sit amet consectetuer adipiscing elit etiam et purus o odio finibus bibendum  amet leo</p>
+                        <div class="mt-4">
+                            <button class="main-btn">Order now<i class="fas fa-shopping-basket ps-3"></i></button>
+                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order now<i class="fas fa-angle-right p s-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--section-2 counter-->
+    <section id="counter">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                         <h2>
+                            <span id="count1"></span>+
+                        </h2>
+                        <p>SAVINGS</p>
+                        </div>
+                        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                            <h2>
+                                <span id="count2"></span>+
+                            </h2>
+                            <p>PHOTOS</p>
+                        </div>
+                        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                            <h2>
+                                <span id="count3"></span>+
+                            </h2>
+                            <p>ROCKETS</p>
+                        </div>
+                        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                             <h2>
+                                <span id="count4"></span>+
+                            </h2>
+                            <p>GLOBES</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+<br>
+<br>
+<br>
+<!--section-3 about-->
+<section id="about">
+    <div class="about-section wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-12 ma-lg-0 mb-5">
+                    <div class="card border-0">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\Foodporn-Instagram-image-mise-en-avant.webp" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 text-sec">
+                    <h2>We pride ourselves on making real food from the best ingredients.</h2>
+                    <p>lorem ipsum dolor sit amet, consectetur adipiscinh elit.lorem ipsum dolor sit amet, consectetur adipiscinh elit.lorem ipsum dolor sit amet, consectetur adipiscinh elit.</p>
+                 <a href="readmore.html"><button class="main-btn mt-4">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="container food-type">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 text-sec ma-lg-0 mb-5">
+                    <h2>We make everything by hand with the best possible intgredients.</h2>
+                    <p>lorem ipsum dolor sit amet, consectetur adipiscinh elit.lorem ipsum dolor sit amet, consectetur adipiscinh elit.lorem ipsum dolor sit amet, consectetur adipiscinh elit.lorem ipsum dolor sit amet, consectetur adipiscinh elit.</p>
+                    <ul class="list-unstyled py-3">
+                        <li>etiam sed dolor ac diam volutpat.</li>
+                        <li>erat volupat aliquet imperdiet.</li>
+                        <li>purus a odio finibus bibendum.</li>
+                    </ul>
+                   <a href="readmore.html"><button class="main-btn mt-4">Learn more</button> </a>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="card border-0">
+                       <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\Featured-1050x816.jpg" class="img-fluid"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--section-3 story-->
+<section id="story">
+    <div class="story-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-content">
+                        <h2>when a man's stomach is full it makes no difference whether he is rich or poor</h2>
+                        <p>lorem ipsum dolor sit amet, consectetuer adipiscing elit.etiam et purus a odio finibus bibendum in sit amet leo. mauris feugiat erat tellus.</p>
+                        <p>Americana brings incredible blends of various cultures to the Desert Shores community in Las Vegas. The restaurant offers fine dining with a blended cultural theme of modern American cuisine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--section-4 explore food-->
+<section id ="explore-food">
+    <div class="explore-food wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 pt-5">
+                    <div class="text-content text-center">
+                        <h2>Explore Our Foods</h2>
+                        <p>lorem ipsum dolor sit amet, consectetuer adipiscing elit.etiam et purus a odio finibus bibendum in sit amet leo. mauris feugiat erat tellus.lorem ipsum dolor sit amet, consectetuer adipiscing elit.etiam et purus a odio finibus bibendum in sit amet leo. mauris feugiat erat tellus.lorem ipsum dolor sit amet, consectetuer adipiscing elit.etiam et purus a odio finibus bibendum in sit amet leo. mauris feugiat erat tellus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5 ">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>TOP PICKS</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                         <a href="top.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\1.webp" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>INDIAN</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                            <a href="indian.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\6.webp" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>ITALIAN</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                           <a href="italian.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\4.webp" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>THAI</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                          <a href="thai.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\GERMAN.webp" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>GERMAN</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                           <a href="german.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\2.webp" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>AMERICAN</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                          <a href="american.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\5.webp" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>CHINESE</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                          <a href="chinese.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="card">
+                        <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\images\last.webp" class="img-fluid">
+                        <div class="pt-1">
+                            <h4>COCKTAIL</h4>
+                            <p>Time: 15 - 20 minutes| Serves: 1</p>
+                            <span>$10.50 <del>$11.70</del></span>
+                           <a href="cocktail.html"><button class="mt-1 main-btn">Order Now</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+
+
+
+
+<!--section-5 testimonial-->
+<section id="testimonial">
+    <div class="wrapper testimonial-section">
+        <div class="container text-center">
+            <div class="text-center pb-4">
+                <h2>Testimonial</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-10 offset-lg-1">
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-caption">
+                                            <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\review\vsco5c392a0e419d6.jpg">
+                                            <p>" Far far away,behind the word mpountains, far from the countries vokalia and consonantia, there live the blind texts"</p>
+                                            <h5>Johnthan Doe -UX Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\review\27a8fe60a6cddb03bd6edce2c0b02aae.jpg">
+                                                <p>" Far far away,behind the word mpountains, far from the countries vokalia and consonantia, there live the blind texts"</p>
+                                                <h5>Johnthan Doe -UX Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\review\portrait-cheerful-indian-senior-old-man-pointing-presenting-hands-folded-pose-retired-wears-white-kurta-195341827.jpg">
+                                                <p>" Far far away,behind the word mpountains, far from the countries vokalia and consonantia, there live the blind texts"</p>
+                                                <h5>Johnthan Doe -UX Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\review\images.jpeg">
+                                                <p>" Far far away,behind the word mpountains, far from the countries vokalia and consonantia, there live the blind texts"</p>
+                                                <h5>Johnthan Doe -UX Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption">
+                                                <img src="C:\Users\HP\OneDrive\Desktop\resfoo\img\review\2017_12$largeimg19_Tuesday_2017_011938582.jpg">
+                                                    <p>" Far far away,behind the word mpountains, far from the countries vokalia and consonantia, there live the blind texts"</p>
+                                                    <h5>Johnthan Doe -UX Designer</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+</section>
+
+
+
+<!--section-6 faq-->
+<section id="faq">
+    <div class="faq wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center pb-4">
+                        <h2>Frequently Asked Questions</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>Is Foodies Bread Really Baked Fresh Each Day?</h4>
+                    <p>far far away,behind the word mountains,far from countries vokalia and consonantia,there live the blind textas ,deprated they live in bookmarksgrove right at the coast of semantics, a large language.</p>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>do you bake breads containing animal fat or products?</h4>
+                    <p>far far away,behind the word mountains,far from countries vokalia and consonantia,there live the blind textas ,deprated they live in bookmarksgrove right at the coast of semantics, a large language.</p>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>can i order your products online?</h4>
+                    <p>far far away,behind the word mountains,far from countries vokalia and consonantia,there live the blind textas ,deprated they live in bookmarksgrove right at the coast of semantics, a large language.</p>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>when are you opening a shop near me?</h4>
+                    <p>far far away,behind the word mountains,far from countries vokalia and consonantia,there live the blind textas ,deprated they live in bookmarksgrove right at the coast of semantics, a large language.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section-7 book-food-->
+<section id="book-food">
+    <div class="book-food">
+        <div class="container book-food-text">
+            <div class="row text-center">
+                <div class="col-lg-9 col-md-12">
+                    <h2>baked fresh daily by bakers with passion</h2>
+                </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <button class="main-btn">Learn More</button>
+                    </div>
+                    
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--section-8 newslettar-->
+<section id="newslettar">
+    <div class="newslettar wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-content text-center pb-4">
+                        <h2>Hurry up!Subscribe our new newsletter and get 25% off</h2>
+                        <p>Limited time offer for this month. No credit card required.</p>
+                    </div>
+                    <form class="newsletter">
+                        <div class="row">
+                            <div class="col-md-8 col-12">
+                                <input class="form-control" placeholder="email address here" name="email" type="email">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <button class="main-btn" type="submit">Subscribe</button>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section-9 footer-->
+<footer id="footer">
+    <div class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a class="footer-link" href="#">Register</a>
+                    <a class="footer-link" href="#">Forum</a>
+                    <a class="footer-link" href="#">Affiliate</a>
+                    <a class="footer-link" href="#">FAQ</a>
+                    <div class="footer-social pt-4 text-center">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/virgil_pana"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                       </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="footer-copy">
+                        <div class="copy-right text-center pt-5">
+                            <p class="text-light">2022. Foodies. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10499.966498430253!2d2.2944813!3d48.8583701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sin!4v1666020264578!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+
+    <!--js library-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <!--own js-->
+    <script src="js/main.js"></script>
+    </body>
+</head>
+</html>
